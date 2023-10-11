@@ -1,0 +1,160 @@
+.bg-navbar,
+.bg-footer,
+.button-color {
+  background-color: rgba(18, 109, 103, 1);
+}
+
+.active-color {
+  background-color: rgba(11, 51, 34, 1);
+}
+
+.active-color:hover {
+  background-color: transparent;
+}
+
+.nav-link:hover {
+  background-color: rgba(11, 51, 34, 1);
+}
+
+.color-text-light {
+  color: white;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.featurette-heading {
+  letter-spacing: -0.05rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.bg-carousel {
+  background-image: url("./assets/bg.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover-artikel {
+  background-image: url("./assets/artikel1.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.color-section {
+  background-color: rgba(18, 109, 103, 0.13);
+}
+
+.color-card {
+  background-color: rgba(18, 109, 103, 0.13);
+}
+
+svg {
+  fill: white;
+}
+
+.play-icon {
+  position: absolute;
+  top: 30%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  padding: 20px; /* Jarak dari tepi lapisan ke ikon "play" */
+  color: white; /* Warna ikon "play" */
+  font-size: 24px; /* Ukuran ikon "play" */
+  opacity: 0px;
+}
+
+.full-image {
+  width: 100%;
+  height: auto;
+}
+
+.cover-container {
+  background-image: url("./assets/bg.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video-div{
+  width: 1400px;
+  height: 500px;
+  margin: auto;
+}
+
+.video-div video{
+  border-radius: 8px;
+  height: 500px;
+}
+
+/* login */
+label {
+  font-size: 1rem;
+  color: #555555;
+}
+
+.login h3 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.login p {
+  font-size: 1rem;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #c2c2c2;
+}
+
