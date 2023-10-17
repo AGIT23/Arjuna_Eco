@@ -1,3 +1,7 @@
+body{
+  font-family: Arial, sans-serif;
+}
+
 .bg-navbar,
 .bg-footer,
 .button-color {
@@ -157,4 +161,71 @@ label {
   height: 1px;
   background: #c2c2c2;
 }
+
+/* icon foto profile */
+
+.icon-link {
+  text-decoration: none;
+  color: white; /* Mengubah warna teks menjadi putih */
+}
+.icon-link i {
+  font-size: 24px;
+}
+
+.profile-icon {
+  background-color: lightgray;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 5px;
+  overflow: hidden;
+}
+
+.profile-icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.profile-image {
+  width: 30px; /* Sesuaikan lebar gambar */
+  height: 30px; /* Sesuaikan tinggi gambar */
+  border-radius: 50%;
+}
+
+/* lapor */
+h1 {
+  color:rgb(0, 0, 0)f;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color:  rgba(18, 109, 103, 0.13) ;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #006a4e;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
 
