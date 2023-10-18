@@ -12,3 +12,5 @@ document.getElementById("community-form").addEventListener("submit", function (e
         alert("Data berhasil dikirim!");
     }
 });
+
+
