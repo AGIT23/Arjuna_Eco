@@ -327,3 +327,69 @@ label {
 .bg-formulir{
   background-color: rgba(18, 109, 103, 0.13);
 }
+
+/* lapor */
+.container-laporkan-masalah-full{
+  border: dashed 1px rgba(0, 0, 0, 0.433);
+  width: 24%;
+  margin-left: 280px;
+  margin-top: 70px;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.container-laporkan-masalah{
+  margin-top: 70px;
+  margin-right: 250px;
+  width: 40%;
+  height: auto;
+}
+
+.img-area{
+  position: relative;
+  width: 100%;
+  height: 240px;
+  background: rgba(128, 128, 128, 0.219);
+  display: flex;
+  margin: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} 
+
+.img-area .icon{
+  font-size: 100PX;
+}
+.img-area .icon h3{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.img-area p{
+  color: #999;
+}
+.img-area img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 100;
+}
+.img-area span{
+  font-weight: 600;
+}
+.select-image{
+  display: block;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-group-lm .form-control{
+  background:  rgba(18, 109, 103, 0.129);
+}
